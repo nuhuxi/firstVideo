@@ -1,5 +1,5 @@
-var index = 1,
-      playlist = ['images/firstVideo.mp4, images/secondVideo.mp4'],
+/*var index = 1,
+      playlist = ['images/secondVideo.mp4'],
       video = document.getElementById('videobcg');
 
   video.addEventListener('ended', rotate_video, false);
@@ -9,4 +9,4 @@ var index = 1,
     video.load();
     index++;
     if (index >= playlist.length) { index = 0; }
-  }
+  } */
