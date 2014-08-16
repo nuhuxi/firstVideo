@@ -1,0 +1,22 @@
+.title-box {
+    width: 600px;
+    max-width: 75%;
+    padding: 4rem;
+    margin: 0 auto;
+    border: solid 1px #000;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, .6);
+    color: #fff;
+}
+
+#videobcg { 
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1000;
+     overflow: hidden;
+}
