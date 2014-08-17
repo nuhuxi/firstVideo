@@ -1,12 +1,34 @@
+html{
+    font-size: 1em;
+    
+}
 .title-box {
-    width: 600px;
-    max-width: 75%;
-    padding: 4rem;
-    margin: 0 auto;
+
+    width: 600px; 
+    height: 800px;
+    max-width: 50%;
+    font-size: 24px;
+    font-size: 2.4rem;
+    padding: 4em;
+    margin: 0 auto; 
     border: solid 1px #000;
     text-align: center;
     background-color: hsla(0, 0%, 0%, .6);
     color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+	.title-box {
+            display: block;
+            height: 800px;
+            padding: 0 1em;
+            font-weight: normal;
+            font-size: 14px;
+            font-size: 1.4em;
+            text-decoration: none;
+            line-height: 3.75em;
+            color: white;
+	}
 }
 
 #videobcg { 
@@ -20,3 +42,4 @@
      z-index: -1000;
      overflow: hidden;
 }
+
