@@ -19,7 +19,7 @@ html{
 
 @media screen and (max-width: 600px) {
 	.title-box {
-            display: block;
+            width: 75%;
             height: 800px;
             padding: 0 1em;
             font-weight: normal;
