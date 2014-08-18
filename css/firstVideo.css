@@ -4,9 +4,9 @@ html{
 }
 .title-box {
 
-    width: 600px; 
+    max-width: 600px; 
     height: 800px;
-    max-width: 75%;
+    width: 75%;
     font-size: 24px;
     font-size: 2.4rem;
     padding: 4em;
@@ -15,20 +15,6 @@ html{
     text-align: center;
     background-color: hsla(0, 0%, 0%, .6);
     color: #fff;
-}
-
-@media screen and (max-width: 600px) {
-	.title-box {
-            width: 75%;
-            height: 800px;
-            padding: 0 1em;
-            font-weight: normal;
-            font-size: 14px;
-            font-size: 1.4em;
-            text-decoration: none;
-            line-height: 3.75em;
-            color: white;
-	}
 }
 
 #videobcg { 
@@ -42,4 +28,24 @@ html{
      z-index: -1000;
      overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+	.title-box {
+            width: 100%;
+            height: 800px;
+            padding: 0 1em;
+            font-weight: normal;
+            font-size: 14px;
+            font-size: 1.4em;
+            text-decoration: none;
+            line-height: 3.75em;
+            color: white;
+	}
+    
+    #videobcg { 
+        display: none;
+    }
+}
+
+
 
